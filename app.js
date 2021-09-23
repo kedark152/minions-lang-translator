@@ -10,10 +10,10 @@ function getTranslationURL(text){
     return serverURL + "?" +"text=" + text;
 }
 
-function errorHandler(error){
- console.log("error occcured",error);
- alert("something went wrong in server, please try again sometime...");
-}
+//function errorHandler(error){
+ //console.log("error occcured", error);}
+ 
+
 
 function clickHandler(){
     //    outputDiv.innerText = "Banana Language " + txtInput.value;
@@ -24,7 +24,7 @@ function clickHandler(){
     .then(json => 
         {var translatedText= json.contents.translated; //console.log(json.contents.translated)
          outputDiv.innerText = translatedText;}   ) //
-    .catch(errorHandler());
+    .catch(()=>alert("something went wrong in server, please try again sometime..."));
 
 }
 
