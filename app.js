@@ -11,7 +11,6 @@ function getTranslationURL(text){
 }
 
 //function errorHandler(error){
-    //alert("Something went wrong");
  //console.log("error occcured", error);}
  
 
