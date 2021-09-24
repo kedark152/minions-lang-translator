@@ -22,17 +22,17 @@ h1{
 .footer{
     text-align: center;
     background-color: var(--primary-color);
-    padding: 8px;
+    padding: 5px;
     margin: 0%;
     font-family: var(--font-family);
 }
 .container{
     margin: auto;
-    width: 700px;
+    max-width: 500px;
 }
 #txtinput {
     display: block;
-    width: 480px;
+    width: 80%;
     height: 15vh;
     margin: 1rem 2.5rem;
     padding: 1rem;
@@ -52,8 +52,9 @@ h1{
     margin: 1rem  2.5rem;
 }
 #output{
+    display: block;
     height: 15vh;
-    width: 480px;
+    width: 80%; 
     margin: 1rem 2.5rem;
     padding: 1rem;
     border: solid black 1px;
