@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
 
 :root{
-    --primary-color: #F2C948;
-    --font-family: "kalam" ,"cursive";
+    --primary-color: #f2a848;
+    --font-family: "Koh Santepheap" ,"cursive";
 }
 body{
     margin:0%;
